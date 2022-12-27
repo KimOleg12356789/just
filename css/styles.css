@@ -1448,6 +1448,10 @@ img {
 
 /* Iphone 6.7.8 */ 
 @media screen and (max-width: 480px) {
+  
+  .work_block_img {
+    padding-left: 1px;
+  }
   .modal_wrap {
     padding: 0 15px;
   }
