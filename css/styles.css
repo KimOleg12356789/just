@@ -711,9 +711,6 @@ img {
 }
 
 .js-modal.is-open {
-  overflow: auto;
-}
-.js-modal.is-open {
   visibility: visible;
   opacity: 1;
 }
