@@ -1,0 +1,1540 @@
+@font-face {
+  font-family: 'museosanscyrl-500';
+  src:url('../fonts/museosanscyrl-500.eot?-kwf309');
+  src:url('../fonts/museosanscyrl-500.eot?#iefix-kwf309') format('embedded-opentype'),
+    url('../fonts/museosanscyrl-500.woff?-kwf309') format('woff'),
+    url('../fonts/museosanscyrl-500.ttf?-kwf309') format('truetype'),
+    url('../fonts/museosanscyrl-500.svg?-kwf309#AA-museosanscyrl-300') format('svg');
+  font-weight: normal;
+  font-style: normal;
+} 
+@font-face {
+  font-family: 'museosanscyrl-100';
+  src:url('../fonts/museosanscyrl-100.eot?-kwf309');
+  src:url('../fonts/museosanscyrl-100.eot?#iefix-kwf309') format('embedded-opentype'),
+    url('../fonts/museosanscyrl-100.woff?-kwf309') format('woff'),
+    url('../fonts/museosanscyrl-100.ttf?-kwf309') format('truetype'),
+    url('../fonts/museosanscyrl-100.svg?-kwf309#AA-museosanscyrl-300') format('svg');
+  font-weight: normal;
+  font-style: normal;
+} 
+@font-face {
+  font-family: 'museosanscyrl-300';
+  src:url('../fonts/museosanscyrl-300.eot?-kwf309');
+  src:url('../fonts/museosanscyrl-300.eot?#iefix-kwf309') format('embedded-opentype'),
+    url('../fonts/museosanscyrl-300.woff?-kwf309') format('woff'),
+    url('../fonts/museosanscyrl-300.ttf?-kwf309') format('truetype'),
+    url('../fonts/museosanscyrl-300.svg?-kwf309#AA-museosanscyrl-300') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}  
+@font-face {
+  font-family: 'museosanscyrl-700';
+  src:url('../fonts/museosanscyrl-700.eot?-kwf309');
+  src:url('../fonts/museosanscyrl-700.eot?#iefix-kwf309') format('embedded-opentype'),
+    url('../fonts/museosanscyrl-700.woff?-kwf309') format('woff'),
+    url('../fonts/museosanscyrl-700.ttf?-kwf309') format('truetype'),
+    url('../fonts/museosanscyrl-700.svg?-kwf309#AA-museosanscyrl-300') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+body {
+  margin: 0 !important;
+  background: #FBFCFD !important;
+  color: #4B5563 !important;
+  font-family: 'museosanscyrl-300' !important;
+  
+}
+
+.container {
+  width: 100%;
+  max-width:1160px !important;
+  margin:0 auto !important;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.try_item {
+  font-family: 'museosanscyrl-700';
+
+}
+
+.ft_menu li a:hover {
+  text-decoration: none !important;
+}
+
+.about_block_wrap2 {
+  background: #fff;
+  box-shadow: -4px 6px 16px rgb(0 0 0 / 10%);
+}
+
+.about_title {
+  font-family: 'museosanscyrl-500';
+  line-height: 150%;
+}
+
+.about_title::before {
+  position: absolute;
+  bottom:0;
+  left: 0;
+  width: 86px;
+  height: 3px;
+  content: '';
+  background: #4B515F;
+}
+
+.about_material {
+  font-family: 'museosanscyrl-700';
+}
+
+
+.about_body {
+  line-height: 150%;
+}
+
+
+.about_media_title {
+  font-family: 'museosanscyrl-700';
+}
+
+.about_number {
+  background: linear-gradient(180deg, #FF4910 0%, #FF1074 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-family: 'museosanscyrl-700';
+}
+
+.about_block2 {
+  border-left: 1px solid #E7EBEE;
+}
+
+.complex_title {
+  font-family: 'museosanscyrl-700';
+}
+
+.complex_body {
+  border-left: 4px solid #FF4910;
+}
+
+.complex_body span {
+  font-family: 'museosanscyrl-700';
+}
+
+.complex_img:before {
+  position: absolute;
+  top: -51px;
+  right: -168px;
+  bottom: -57px;
+  left: 70px;
+  content: '';
+  background: url(../img/complex-bg.svg) 0 0 no-repeat;
+}
+
+.complex_item span {
+  font-family: 'museosanscyrl-700';
+}
+
+.hashtag li a {
+  font-family: 'museosanscyrl-700';
+}
+
+.today_block {
+  position: relative;
+  background: #FBFCFD;
+  box-shadow: -4px 6px 16px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  text-align: left;
+}
+
+.today_block:hover {
+  background: #262B36;
+  transition: 0.3s;
+}
+
+.today_block:hover .today_time {
+  color:#fff;
+}
+
+.today_block:hover .today_media_title  {
+  color:#fff;
+}
+
+.today_block:hover .today_media_body  {
+  color:#fff;
+}
+
+.today_block:before {
+  position: absolute;
+  top:10px;
+  right: -8px;
+  left: 10px;
+  bottom: -8px;
+  content: '';
+  border-right: 12px solid #FF4910;
+  border-bottom: 12px solid #FF4910;
+  z-index: -1;
+}
+
+.today_time {
+  color: #9CA3AF;
+  border-right: 1px solid #9CA3AF;
+}
+
+.today_time:last-child {
+  border:none;
+}
+
+.hashteg_red {
+  background: linear-gradient(180deg, #FF4910 0%, #FF1074 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-family: 'museosanscyrl-700';
+}
+
+.today_media_title {
+  color: #0F172A;
+  font-family: 'museosanscyrl-700';
+}
+.balls .container {
+  background: url(../img/ball-bg.svg) 120px 210px no-repeat;
+}
+
+.ball_block_in4:before {
+  position: absolute;
+  top: -171px;
+  right: -150px;
+  width: 306px;
+  height: 306px;
+  content: '';
+  background: url(../img/ball-icon.svg) 0 0 no-repeat;
+}
+
+.ball_block {
+  position: relative;
+  background: #FFFFFF;
+  width: 370px;
+  height: 260px;
+  box-shadow: 6px 8px 36px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  border-top:10px solid #FF4910;
+}
+.ball_block_title {
+  color: #4B515F;
+  font-family: 'museosanscyrl-700';
+}
+
+.ball_block_title span {
+  color:#FF4910;
+}
+
+.ball_media_title {
+  font-family: 'museosanscyrl-700';
+  color:#FF4910;
+  box-shadow: -2px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 16px 16px 0px 16px;
+}
+
+.ball_media_title2 {
+  font-family: 'museosanscyrl-700';
+  color:#FF4910;
+  box-shadow: -2px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 16px 16px 0px 16px;
+}
+
+.ball_media_title2 span {
+  opacity: 0.6;
+}
+
+
+.ball_media_title3 {
+  font-family: 'museosanscyrl-700';
+  color:#FF4910;
+  box-shadow: -2px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 16px 16px 0px 16px;
+}
+
+.ball_media_title3 span {
+  opacity: 0.4;
+}
+
+.ball_media_title5 {
+  padding: 13px 34px 20px 52px;
+  font-family: 'museosanscyrl-700';
+}
+
+.ball_img {
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+}
+
+.ball_img2 {
+  position: absolute;
+  bottom: -36px;
+  right: -83px;
+}
+
+.top_block_title span {
+  font-family: 'museosanscyrl-700';
+}
+
+.top_block_img {
+  position: relative;
+}
+
+.top_block_img img {
+  position:relative;
+  z-index: 1;
+}
+
+.top_block_img:before {
+  position: absolute;
+  width: 264px;
+  height: 83px;
+  content: '';
+  top: -23px;
+  left: 159px;
+  background: url(../img/top-block-bg.svg) 0 0 no-repeat;
+  background-size: cover;
+}
+
+.top_block_img2 {
+  position: relative;
+}
+
+.top_block_img2 img {
+  position:relative;
+  z-index: 1;
+}
+
+.top_block_img2:before {
+  position: absolute;
+  width: 278px;
+  height: 83px;
+  content: '';
+  top: -16px;
+  left: 154px;
+  background: url(../img/top-block-bg2.svg) 0 0 no-repeat;
+  background-size: cover;
+}
+
+.top_block_img3 {
+  position: relative;
+}
+
+.top_block_img3 img {
+  position:relative;
+  z-index: 1;
+}
+
+.top_block_img3:before {
+  position: absolute;
+  width: 283px;
+  height: 105px;
+  content: '';
+  top: -57px;
+  left: 159px;
+  background: url(../img/top-block-bg3.svg) 0 0 no-repeat;
+  background-size: cover;
+}
+
+.top_block_img7 img {
+  position:relative;
+  z-index: 1;
+}
+
+
+.top_block_img4 {
+  position: relative;
+}
+
+.top_block_img4 img {
+  position:relative;
+  z-index: 1;
+}
+
+.top_block_img4:before {
+  position: absolute;
+  width: 274px;
+  height: 426px;
+  content: '';
+  top: -64px;
+  left: 121px;
+  background: url(../img/top-block-bg7.svg) 0 0 no-repeat;
+  background-size: cover;
+}
+
+.top_block_img5 {
+  position: relative;
+}
+
+.top_block_img5 img {
+  position:relative;
+  z-index: 1;
+}
+
+.top_block_img5:before {
+  position: absolute;
+  width: 412px;
+  height: 105px;
+  content: '';
+  top: -57px;
+  left: 219px;
+  background: url(../img/top-block-bg5.svg) 0 0 no-repeat;
+  background-size: cover;
+}
+
+
+.top_block_img6 {
+  position: relative;
+}
+
+.top_block_img6 img {
+  position:relative;
+  z-index: 1;
+}
+
+.top_block_img6:before {
+  position: absolute;
+  width: 412px;
+  height: 124px;
+  content: '';
+  top: -61px;
+  left: 219px;
+  background: url(../img/top-block-bg6.svg) 0 0 no-repeat;
+  background-size: cover;
+}
+
+.menu_top li a {
+  text-decoration: underline;
+}
+
+.menu_top li a:hover {
+  color:#FF1074;
+  transition:0.2s;
+  -webkit-transition:0.2s;
+  -moz-transition:0.2s;
+  -ms-transition:0.2s;
+  -o-transition:0.2s;
+}
+
+.lk_top {
+  box-shadow: 0px 0px 10px rgba(255, 44, 70, 0.4);
+  border-radius: 4px;
+  border:1px solid #FF4910;
+  color:#FF4910;
+  font-family: 'museosanscyrl-700';
+}
+
+.lk_top:hover {
+  background: #FF4910;
+  transition: 0.3s;
+  color:#fff;
+}
+
+.header:before {
+  position:absolute;
+  top: 300px;
+  right:0;
+  left:0;
+  /* height: 100%; */
+  bottom: 0;
+  content:'';
+  background:url(../img/header-line.svg) center 0 no-repeat;
+}
+
+.slogan_top {
+  position:relative;
+  background: linear-gradient(91.23deg, #FF4910 4.73%, #FF1074 51.05%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: 'museosanscyrl-700';
+  font-size:24px;
+  text-fill-color: transparent;
+  width: 560px;
+}
+
+.slogan_top:before {
+  position: absolute;
+  bottom: 0;
+  left: -19px;
+  right: 0;
+  top: 8px;
+  content: '';
+  background: url(../img/slogan-icon.svg) left 0 no-repeat;
+}
+
+.slogan_top:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  content: '';
+  background: url(../img/slogan-line.svg) 100% 17px no-repeat;
+}
+
+.slogan {
+  line-height: 150%;
+}
+
+.slogan span {
+  font-family: 'museosanscyrl-700';
+}
+
+.btn_test {
+  box-shadow: 0px 0px 10px rgba(255, 44, 70, 0.6);
+  border: 2px solid #FF4910;
+  color: #FF4910;
+  font-family: 'museosanscyrl-700';
+}
+
+.btn_test:hover {
+  background: #FF4910 !important;
+  transition: 0.3s;
+  color:#fff !important;
+}
+
+.btn_test span {
+  font-family: "ALSRublRegular" !important;
+}
+
+.btn_test2:hover {
+  background: #FF7A51 !important;
+  color:#fff !important;
+  transition: 0.3s;
+}
+
+.btn_test2 {
+  background: #FF4910 !important;
+  color:#fff !important;
+}
+
+
+
+.work_title {
+  line-height: 150%;
+  color: #4B515F;
+  font-family: 'museosanscyrl-700';
+}
+
+.work_item {
+  font-family: 'museosanscyrl-700';
+}
+
+.work_block_media {
+  border-left:10px solid #FF4910;
+  border-right:10px solid #FF4910;
+  margin: -20px -10px 0 -9px;
+  border-bottom:10px solid #FF4910;
+}
+
+.work .container {
+  max-width:960px;
+}
+
+.work_block_title {
+  color: #4B5563;
+  font-family: 'museosanscyrl-700';
+}
+
+.work_block_body {
+  letter-spacing: -0.01em;
+  font-family: 'museosanscyrl-100';
+}
+
+img {
+  display: inline-block !important;
+}
+
+.level {
+  background: #262B36 url(../img/level-bg.svg) center center no-repeat;
+}
+
+/*BURGER*/
+
+.mt-munu-mb {
+  padding: 0 0 0 0;
+}
+
+.burger {
+  display: none !important;
+}
+
+
+
+.burger i:nth-of-type(1) {
+  display: block;
+}
+.burger i:nth-of-type(2) {
+  display: none;
+}
+
+.burger.burger-open i:nth-of-type(1) {
+  display: none;
+}
+.burger.burger-open i:nth-of-type(2) {
+  display: block;
+}
+
+.body-open {
+  overflow: hidden;
+}
+
+.mt-mobile {
+  top: 0;
+  right: 0;
+  transition: 0.5s ease all;
+  clip-path: circle(100%);
+  background:#F0F3F5 url(../img/burger-bg.svg) right bottom no-repeat;
+  background-size: cover;
+}
+
+.mt-mobile.nav-open {
+  clip-path: circle(0px at 100% 0px);
+}
+
+.rew_wrap {
+  border-right:5px solid #FF4910;
+  border-bottom:5px solid #FF4910;
+  border-left:5px solid #FF4910;
+}
+
+.all_see {
+  font-family: 'museosanscyrl-700';
+}
+
+@media screen and (max-width: 1400px) {
+  .ball_block_in4:before {
+    position: absolute;
+    top: -171px;
+    right: -80px;
+    width: 306px;
+    height: 306px;
+    content: '';
+    background: url(../img/ball-icon.svg) 0 0 no-repeat;
+  }
+
+  .top_block_img4:before {
+    position: absolute;
+    width: 264px;
+    height: 416px;
+    content: '';
+    top: -63px;
+    left: 106px;
+    background: url(../img/top-block-bg7.svg) 0 0 no-repeat;
+    background-size: cover;
+  }
+
+  .complex_img:before {
+    position: absolute;
+    top: -51px;
+    right: -78px;
+    bottom: -57px;
+    left: -10px;
+    content: '';
+    background: url(../img/complex-bg.svg) 0 0 no-repeat;
+}
+}
+
+
+/* Ãƒâ€˜Ã‚ÂÃƒâ€˜Ã¢â‚¬Å¡ÃƒÂÃ‚Â¸ÃƒÂÃ‚Â»ÃƒÂÃ‚Â¸ ÃƒÂÃ‚Â´ÃƒÂÃ‚Â»Ãƒâ€˜Ã‚Â md-Ãƒâ€˜Ã†â€™Ãƒâ€˜Ã‚ÂÃƒâ€˜Ã¢â‚¬Å¡Ãƒâ€˜Ã¢â€šÂ¬ÃƒÂÃ‚Â¾ÃƒÂÃ‚Â¹Ãƒâ€˜Ã‚ÂÃƒâ€˜Ã¢â‚¬Å¡ÃƒÂÃ‚Â² */
+@media screen and (max-width: 1366px) {
+  .complex_img:before {
+    position: absolute;
+    top: -51px;
+    right: -28px;
+    bottom: -57px;
+    left: -60px;
+    content: '';
+    background: url(../img/complex-bg.svg) 0 0 no-repeat;
+}
+
+.top_block_img4:before {
+  position: absolute;
+  width: 210px;
+  height: 416px;
+  content: '';
+  top: -63px;
+  left: 115px;
+  background: url(../img/top-block-bg7.svg) 0 0 no-repeat;
+  background-size: cover;
+}
+
+.ball_block_in4:before {
+  position: absolute;
+  top: -171px;
+  right: -63px;
+  width: 306px;
+  height: 306px;
+  content: '';
+  background: url(../img/ball-icon.svg) 0 0 no-repeat;
+}
+
+.ball_img2 {
+  position: absolute;
+  bottom: -36px;
+  right: -54px;
+}
+
+.container {
+  padding: 0 15px;
+}
+
+}
+
+
+.complex_item_wrap2 {
+  display: none !important
+}
+
+.try_wrap  {
+  padding: 40px 0 0 0;
+}
+
+
+.modal {
+  top: 0px;
+  z-index: 9999;
+  height: 100vh;
+}
+
+.js-modal.is-open {
+  visibility: visible;
+  opacity: 1;
+}
+
+.js-modal {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+.js-modal .modal__inner {
+  transform: translateY(100%);
+  opacity: 0;
+  transition: transform 0.5s ease-in-out 0.1s;
+}
+
+.js-modal .modal__inner {
+  transform: translateY(100%);
+  opacity: 0;
+  transition: transform 0.5s ease-in-out 0.1s;
+  -webkit-transform: translateY(100%);
+  -moz-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  -o-transform: translateY(100%);
+}
+
+
+.js-modal.is-open .modal__inner {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.title_modal {
+  font-size: 32px;
+  font-family: 'museosanscyrl-700';
+}
+
+.modal_wrap:before {
+  position: absolute;
+  top:-21px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: '';
+  background: url(../img/modal-line.svg) center 0 no-repeat;
+}
+
+
+/* Ãƒâ€˜Ã‚ÂÃƒâ€˜Ã¢â‚¬Å¡ÃƒÂÃ‚Â¸ÃƒÂÃ‚Â»ÃƒÂÃ‚Â¸ ÃƒÂÃ‚Â´ÃƒÂÃ‚Â»Ãƒâ€˜Ã‚Â sm-Ãƒâ€˜Ã†â€™Ãƒâ€˜Ã‚ÂÃƒâ€˜Ã¢â‚¬Å¡Ãƒâ€˜Ã¢â€šÂ¬ÃƒÂÃ‚Â¾ÃƒÂÃ‚Â¹Ãƒâ€˜Ã‚ÂÃƒâ€˜Ã¢â‚¬Å¡ÃƒÂÃ‚Â² */
+@media screen and (max-width: 1280px) {
+  .btn-modal {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .burger {
+    display: block !important;
+  }
+
+  .try_wrap  {
+    padding: 0 0 0 0 !important;
+  }
+
+  .top_block_img5:before {
+    position: absolute;
+    width: 412px;
+    height: 105px;
+    content: '';
+    top: -57px;
+    left: 214px;
+    background: url(../img/top-block-bg5.svg) 0 0 no-repeat;
+    background-size: cover;
+}
+
+.container {
+  max-width: 950px !important;
+}
+
+.about_title::before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 86px;
+  height: 3px;
+  content: '';
+  background: #4B515F;
+}
+
+.top_block_img:before {
+  background: url(../img/top-block-mb.svg) 0 0 no-repeat;
+  position: absolute;
+  width: 314px;
+  height: 83px;
+  content: '';
+  top: -28px;
+  left: 190px;
+}
+
+.top_block_img2:before {
+  background: url(../img/top-block-mb2.svg) 0 0 no-repeat;
+  position: absolute;
+  width: 282px;
+  height: 393px;
+  content: '';
+  top: -52px;
+  left: 150px;
+}
+
+
+.top_block_img3:before {
+  position: absolute;
+  width: 323px;
+  height: 95px;
+  content: '';
+  top: -25px;
+  left: 176px;
+  background: url(../img/top-block-mb3.svg) 0 0 no-repeat;
+  background-size: contain;
+}
+
+
+.top_block_img4:before {
+  background: url(../img/top-block-mb4.svg) 0 0 no-repeat;
+  background-size: contain;
+  position: absolute;
+    width: 249px;
+    height: 416px;
+    content: '';
+    top: -29px;
+    left: -419px;
+}
+
+
+.top_block_img5:before {
+  position: absolute;
+  width: 344px;
+  height: 105px;
+  content: '';
+  top: -39px;
+  left: 164px;
+  background: url(../img/top-block-mb5.svg) 0 0 no-repeat;
+  background-size: contain;
+}
+
+
+.top_block_img6:before {
+  position: absolute;
+  width: 432px;
+  height: 474px;
+  content: '';
+  top: -42px;
+  left: -11px;
+  background: url(../img/top-block-mb6.svg) 0 0 no-repeat;
+  background-size: contain;
+} 
+
+.top_block_title br {
+  display: none;
+}
+
+.top_wrap {
+  margin: 0 auto !important;
+}
+
+.top_wrap2 {
+  margin: 0 auto !important;
+}
+
+.ball_block_in4:before {
+  position: absolute;
+  top: -61px;
+  right: -63px;
+  width: 137px;
+  height: 137px;
+  content: '';
+  background: url(../img/ball-icon.svg) 0 0 no-repeat;
+  background-size: contain;
+}
+
+.complex_item_wrap {
+  display: none !important
+}
+
+.complex_item_wrap2 {
+  display: flex !important
+}
+
+.top_wrap {
+  width: 690px !important;
+}
+.top_wrap2 {
+  width: 690px !important;
+}
+
+.complex_img:before {
+  position: absolute;
+  top: -11px;
+  right: -28px;
+  bottom: unset; 
+  height: 413px;
+  width: 425px;
+  left: unset;
+  content: '';
+  background: url(../img/complex-bg.svg) 0 0 no-repeat;
+  background-size: cover;
+}
+
+.try_wrap {
+  width: 634px !important;
+  background: url(../img/try-line-mb.svg) center 0 no-repeat !important;
+}
+
+.line_white {
+  margin: 0 auto 19px auto !important;
+}
+
+.header:before {
+  position: absolute;
+  top: 294px;
+  right: 0px;
+  left: 0;
+  bottom: 0;
+  content: '';
+  background: url(../img/header-line.svg) center 0 no-repeat;
+}
+
+}
+
+
+
+/* Ãƒâ€˜Ã‚ÂÃƒâ€˜Ã¢â‚¬Å¡ÃƒÂÃ‚Â¸ÃƒÂÃ‚Â»ÃƒÂÃ‚Â¸ ÃƒÂÃ‚Â´ÃƒÂÃ‚Â»Ãƒâ€˜Ã‚Â sm-Ãƒâ€˜Ã†â€™Ãƒâ€˜Ã‚ÂÃƒâ€˜Ã¢â‚¬Å¡Ãƒâ€˜Ã¢â€šÂ¬ÃƒÂÃ‚Â¾ÃƒÂÃ‚Â¹Ãƒâ€˜Ã‚ÂÃƒâ€˜Ã¢â‚¬Å¡ÃƒÂÃ‚Â² */
+@media screen and (max-width: 1024px) {
+  .ball_img2 {
+    position: absolute;
+    bottom: 34px;
+    right: -13px;
+    width: 158px;
+}
+
+.ball_block_in4:before {
+  position: absolute;
+  top: -61px;
+  right: -15px;
+  width: 147px;
+  height: 137px;
+  content: '';
+  background: url(../img/ball-icon.svg) 0 0 no-repeat;
+  background-size: contain;
+}
+
+.balls .container {
+  background: url(../img/ball-bg.svg) 90px 264px no-repeat;
+}
+
+.header:before {
+  position: absolute;
+  top: 294px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  content: '';
+  background: url(../img/header-line.svg) center 0 no-repeat;
+}
+
+}
+
+@media screen and (max-width: 992px) {
+  .ball_block {
+    width: 100% !important;
+  }
+}
+
+/* Ipad*/ 
+@media screen and (max-width: 970px) {
+  .complex_img:before {
+    position: absolute;
+    top: -11px;
+    right: -8px;
+    bottom: unset;
+    height: 413px;
+    width: 425px;
+    left: unset;
+    content: '';
+    background: url(../img/complex-bg.svg) 0 0 no-repeat;
+    background-size: cover;
+}
+}
+
+@media screen and (max-width: 900px) {
+  .try_wrap  {
+    width: 634px;
+  }
+
+  .ball_img {
+    position: absolute;
+    bottom: 50px;
+    right: 10px;
+}
+
+.ball_img img {
+  width: 110px;
+}
+
+.top_block_img2:before {
+  background: url(../img/top-block-mb2.svg) 0 0 no-repeat;
+  position: absolute;
+  width: 228px;
+  height: 393px;
+  content: '';
+  top: -47px;
+  left: 145px;
+}
+
+.top_block_img6:before {
+  position: absolute;
+  width: 389px;
+  height: 474px;
+  content: '';
+  top: -35px;
+  left: -5px;
+  background: url(../img/top-block-mb6.svg) right 0 no-repeat;
+  /* background-size: contain; */
+}
+  
+}
+
+@media screen and (max-width: 912px) {
+
+  .top_block_img6:before {
+    position: absolute;
+    width: 442px;
+    height: 474px;
+    content: '';
+    top: -49px;
+    left: -11px;
+    background: url(../img/top-block-mb6.svg) 0 0 no-repeat;
+    background-size: contain;
+}
+
+  .work_block_body  {
+    height: 40px;
+  }
+  .today {
+    background:#F0F3F5 url(../img/today-bg-mb.png) right 0 no-repeat !important;
+  }
+
+  .about_center {
+    width: 620px;
+    margin: 0 auto;
+  }
+
+  .ball_block_in4:before {
+    position: absolute;
+    top: -82px;
+    right: -13px;
+    width: 197px;
+    height: 191px;
+    content: '';
+    background: url(../img/ball-icon.svg) 0 0 no-repeat;
+    background-size: contain;
+  }
+.ball_img2 {
+  position: absolute;
+  bottom: 34px;
+  right: -13px;
+  width: 158px;
+}
+
+.ball_block {
+  width: 100%;
+}
+
+.ball_block_in {
+  width: 50% !important;
+}
+
+.ball_block_in2 {
+  width: 50% !important;
+}
+
+.ball_block_in3 {
+  width: 50% !important;
+}
+
+.ball_block_in4 {
+  width: 50% !important;
+}
+
+.balls .container {
+  background: url(../img/ball-bg768.svg) 80px 208px no-repeat;
+}
+
+.header:before {
+  position: absolute;
+  top: 298px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  content: '';
+  background: url(../img/header-line.svg) center 0 no-repeat;
+}
+
+.about_block_wrap {
+  width:620px !important;
+  margin: 0 auto 30px auto !important;
+  
+}
+
+
+
+.complex_item_wrap2  {
+  width:620px !important;
+  margin: 0 auto !important;
+}
+
+.ball_block_in2 {
+  margin-top: 120px !important;
+}
+.ball_block_in4 {
+  margin-top: 80px !important;
+}
+}
+
+@media screen and (max-width: 800px) {
+  .balls .container {
+    background: url(../img/ball-bg768.svg) 80px 258px no-repeat;
+  }
+
+  .top_block_img6:before {
+    position: absolute;
+    width: 392px;
+    height: 474px;
+    content: '';
+    top: -28px;
+    left: -21px;
+    background: url(../img/top-block-mb6.svg) 0 0 no-repeat;
+    background-size: contain;
+}
+}
+
+/* Ipad mini*/ 
+@media screen and (max-width: 750px) {
+  .top_block_img:before {
+    display: none;
+  }
+
+  .top_block_img2:before {
+    display: none;
+  }
+
+  .top_block_img3:before {
+    display: none;
+  }
+
+  .top_block_img4:before {
+    display: none;
+  }
+
+
+  .top_block_img5:before {
+    display: none;
+  }
+
+  .top_block_img6:before {
+    display: none;
+  }
+
+  .top_block_img7:before {
+    display: none;
+  }
+
+  .header:before {
+    position: absolute;
+    top: -93px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    content: '';
+    background: url(../img/header-line-mb.svg) center 0 no-repeat;
+  }
+
+  .btn_test {
+    margin: 0 auto !important;
+  }
+}
+
+/* Galaxy S8+*/ 
+@media screen and (max-width: 760px) {
+  .mt-mobile {
+    background:#F0F3F5 url(../img/burger-bg.svg) right bottom no-repeat;
+    background-size: contain;
+  }
+  .top_wrap {
+    width: 100% !important;
+  }
+
+  .top_wrap2 {
+    width: 100% !important;
+  }
+
+  .try_wrap {
+    width: 100% !important;
+    background: url(../img/try-line-mb.svg) center 0 no-repeat !important;
+    background-size: contain !important;
+  }
+
+  .slogan_top {
+    position: relative;
+    background: linear-gradient(91.23deg, #FF4910 4.73%, #FF1074 51.05%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: 'museosanscyrl-700';
+    font-size: 24px;
+    text-fill-color: transparent;
+    width: 100%;
+    
+  }
+
+  .slogan_top:after {
+    display: none;
+  }
+
+  .slogan_top:before {
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    right: 0;
+    top: 8px;
+    content: '';
+    background: url(../img/slogan-icon.svg) left 0 no-repeat;
+  }
+
+.container {
+  padding: 0 20px;
+}
+
+.about_block {
+  width: 100% !important;
+}
+
+.about_block2 {
+  width: 100% !important;
+  border:none;
+}
+
+.work_body br {
+  display: none;
+}
+
+.work_body {
+  margin: 0 0 30px 0 !important;
+}
+
+.top_wrap {
+  display: block !important;
+}
+
+.top_wrap2 {
+  display: block !important;
+}
+
+.complex_item_wrap2 {
+  display: block !important;
+}
+
+.complex_item br {
+  display: none;
+}
+
+.complex_item_wrap2  {
+  box-shadow: 4px 10px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}
+
+.today_block_in {
+  width: 100% !important;
+}
+
+.try_body br {
+  display: none;
+}
+
+.header:before {
+  position: absolute;
+  top: -105px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  content: '';
+  background: url(../img/header-line360.svg) center 0 no-repeat;
+  background-size: cover;
+}
+}
+
+/* Galaxy*/ 
+@media screen and (max-width: 640px) {
+
+  .title_modal br {
+    display: none;
+  }
+
+  .about_block_wrap2 {
+    background: none !important;
+    box-shadow: unset !important;
+  }
+
+  .about_center {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .about_material  {
+    margin-left: 0 !important;
+  }
+
+  .ball_block_in2 {
+    margin-top: 0 !important;
+  }
+  .ball_block_in4 {
+    margin-top: 0 !important;
+  }
+
+  .complex_item_wrap2  {
+    width:100% !important;
+    margin: 0 auto !important;
+  }
+
+  .about_block_wrap {
+    width: 100% !important;
+    margin: 0 auto 30px auto !important;
+}
+  
+
+  .ball_block_in4:before {
+    display: none;
+  }
+  .balls .container {
+    background: url(../img/ball-bg-mb.svg) center 274px no-repeat;
+}
+
+.try_wrap {
+  width: 347px !important;
+  background: url(../img/try-line-mb360.svg) center 0 no-repeat !important;
+  background-size: unset !important;
+}
+
+.complex_img:before {
+  position: absolute;
+  top: -7px;
+  right: -8px;
+  bottom: unset;
+  height: 293px;
+  width: 305px;
+  left: unset;
+  content: '';
+  background: url(../img/complex-bg.svg) 0 0 no-repeat;
+  background-size: cover;
+}
+.ball_block_in {
+  width: 100% !important;
+}
+
+.ball_block_in2 {
+  width: 100% !important;
+}
+
+.ball_block_in3 {
+  width: 100% !important;
+}
+
+.ball_block_in4 {
+  width: 100% !important;
+}
+}
+
+@media screen and (max-width: 540px) {
+  .header:before {
+    position: absolute;
+    top: -25px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    content: '';
+    background: url(../img/header-line360.svg) center 0 no-repeat;
+    background-size: cover;
+}
+}
+
+/* Iphone 6.7.8 */ 
+@media screen and (max-width: 480px) {
+  .modal_wrap {
+    padding: 0 15px;
+  }
+
+  .btn-modal {
+    width: 100% !important;
+  }
+
+  .modal_wrap:before {
+    position: absolute;
+    top: 49px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: '';
+    background: url(../img/modal-line.svg) center 0 no-repeat;
+}
+
+  .rew {
+    background: url(../img/line-rew-mb.svg) center 250px no-repeat !important;
+    background-size: contain !important;
+  }
+
+  .work_block_body {
+    height: auto;
+}
+  .ball_img {
+    position: absolute;
+    bottom: 19px;
+    right: 10px;
+  }
+
+  .ball_block2 {
+    height: 210px;
+  }
+
+  .slogan_top {
+    font-size: 22px;
+  }
+  .complex_img:before {
+    display: none;
+  }  
+  .top_block_title  {
+    width: 300px !important;
+  }
+
+  .complex_body br {
+    display: none;
+  }
+
+  .complex_title br {
+    display: none;
+  }
+
+  .today_time_wrap  {}
+
+  .header:before {
+    position: absolute;
+    top: 25px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    content: '';
+    background: url(../img/header-line360.svg) center 0 no-repeat;
+    background-size: cover;
+}
+.balls .container {
+  background: url(../img/ball-bg-mb.svg) center 410px no-repeat;
+}
+
+.ball_img2 {
+  position: absolute;
+  bottom: 14px;
+  right: -17px;
+  width: 158px;
+}
+
+}
+
+@media screen and (max-width: 415px) {
+
+  .modal_wrap:before {
+    position: absolute;
+    top: 86px;
+    right: 0px;
+    bottom: 0;
+    left: 1px;
+    content: '';
+    background: url(../img/modal-line.svg) center 0 no-repeat;
+    background-size: cover;
+}
+  .header:before {
+    position: absolute;
+    top: 59px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    content: '';
+    background: url(../img/header-line360.svg) center 0 no-repeat;
+    background-size: cover;
+  }
+
+  .ball_media_title5 {
+    padding: 13px 34px 20px 28px;
+    font-family: 'museosanscyrl-700';
+}
+
+.ball_media {
+  padding-right: 110px !important;
+}
+
+}
+
+@media screen and (max-width: 391px) {
+  .modal_wrap:before {
+    display: none;
+  }
+}
+
+/* Iphone 5.5SE */ 
+@media screen and (max-width: 380px) {
+  .header:before {
+    position: absolute;
+    top: 100px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    content: '';
+    background: url(../img/header-line360.svg) center 0 no-repeat;
+    background-size: contain;
+  }
+
+}
+
